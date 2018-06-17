@@ -5,9 +5,8 @@
 * markdown写作
 
 ## 适合人群
-* 有一定的中文阅读基础
-* 有一定的动手能力
 * 有一定的编程基础
+* 有一定的动手能力
 
 ## 部署步骤
 1. 克隆此[仓库](https://github.com/freetes/A-Blog-in-GitHub)到本地
@@ -24,7 +23,5 @@
   3. 等等
 
 ## [建议反馈](https://github.com/freetes/A-Blog-in-GitHub/issues/new)
-
-***
 
 # Good luck!

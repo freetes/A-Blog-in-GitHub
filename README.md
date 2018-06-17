@@ -1,2 +1,21 @@
-# A-Blog-in-GitHub
-无需购买服务器，快速部署个人博客
+# A Blog in GitHub
+## 特色
+* 简便快速的部署
+* 无需购买服务器
+* markdown写作
+
+## 适合人群
+* 有一定的中文阅读基础
+* 有一定的动手能力
+* 有一定的编程基础
+
+## 部署步骤
+1. 克隆此[仓库](https://github.com/freetes/A-Blog-in-GitHub)到本地
+2. 配置属于自己的config.json文件
+3. 在articles里新增.md结尾的markdown文件，并写作
+4. 在config.json里新增文章信息
+5. push到自己的GitHub
+
+***
+
+# Good luck!

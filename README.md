@@ -22,6 +22,6 @@
   2. 评论功能
   3. 等等
 
-## [建议反馈](https://github.com/freetes/A-Blog-in-GitHub/issues/new)
+## [反馈与建议](https://github.com/freetes/A-Blog-in-GitHub/issues/new)
 
 # Good luck!

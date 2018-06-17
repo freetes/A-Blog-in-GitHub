@@ -16,6 +16,15 @@
 4. 在config.json里新增文章信息
 5. push到自己的GitHub
 
+## 未来计划
+* 用react/vue重构
+* 增加若干功能，例如：
+  1. 更换主题
+  2. 评论功能
+  3. 等等
+
+## [建议反馈](https://github.com/freetes/A-Blog-in-GitHub/issues/new)
+
 ***
 
 # Good luck!

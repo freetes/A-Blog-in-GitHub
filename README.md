@@ -20,7 +20,7 @@
 
 1. **直接下载**或**使用git克隆**此[仓库](https://github.com/freetes/A-Blog-in-GitHub)到本地
 2. 配置属于自己的config.json文件
-    ```json
+    ```javascript
     {
       "name": "你的个人博客", // 博客标题
       "articles": [

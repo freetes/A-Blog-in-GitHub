@@ -14,7 +14,7 @@
 ## 环境搭建
 
 1. 安装 **[git](https://git-scm.com/downloads)**
-2. 建议安装 **[vscode](https://code.visualstudio.com/)**，用于写文章
+2. 建议安装 **[vscode](https://code.visualstudio.com/)**
 3. [直接下载](https://github.com/freetes/A-Blog-in-GitHub/archive/master.zip)项目压缩包到本地并解压
 4. 打开文件夹里的config.json文件，其标准如下
     ```javascript
@@ -53,7 +53,7 @@
 
 ## 成功案例
 
-* [作者的个人博客](https://freetes.github.io/My-Blog-in-GitHub/)
+* [作者的个人博客](https://freetes.github.io/)
 
 #### [反馈与建议](https://github.com/freetes/A-Blog-in-GitHub/issues/new)
 

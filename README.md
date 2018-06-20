@@ -42,7 +42,7 @@
 
 ## 新增文章
 
-1. 在 **articles文件夹** 里新建**以.md结尾的markdown文件**([关于markdown的语法](https://www.appinn.com/markdown/))
+1. 在 **articles文件夹** 里新建**以.md结尾的markdown文件**([关于markdown的语法](https://freetes.github.io/#Markdown语法))
 2. 写你想写的
 3. 在 **artConfig.json** 里配置新增文章的信息
 4. 使用 **git** 将修改后的项目 **push** 到自己的GitHub

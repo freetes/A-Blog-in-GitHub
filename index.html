@@ -4,33 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>一个不知名的小站</title>
-  <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./src/style.css">
-  <link rel="stylesheet" href="./src/markdown.css">
+  <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./public/css/style.css">
+  <link rel="stylesheet" href="./public/css/markdown.css">
 </head>
-<body class="container">
-  <header class="row" onclick="toggleList()">
-    <span id="blogName">一个不知名的小站</span>
-    <span id="subName"></span>
+<body class="container-full">
+  <header class="container-full">
+    <div class="container">
+      <span id="blogName" onclick="toggleList()">一个不知名的小站</span>
+      <span id="subName"></span>
+    </div>
   </header>
 
-  <div class="row">
+  <div class="container">
     <div class="list col-md-3 col-xs"></div>
-    <article class="markdown-body col-md-7 col-xs-full" style="background-color: white"></article>
+    <article class="markdown-body col-md-7 col-xs-full" style="background-color: white">
+      <h3 class="text-center">社会主义核心价值观</h3>
+      <p class="text-center">富强 民主 文明 和谐</p>
+      <p class="text-center">自由 平等 公正 法治</p>
+      <p class="text-center">爱国 敬业 诚信 友善</p>
+    </article>
   </div>
 
-  <footer class="row">
-    <span id="endWords">Hello world</span>
+  <footer>
+    <span id="endWords">made with ❤</span>
+    <span id="endWords">Powered by Github</span>
   </footer>
 
   <div class="tools">
     <!-- <button onclick="toggleList()">目录</button> -->
-    <button onclick="$('html,body').animate({scrollTop: '0px'}, 600);">⇧</button>
+    <button onclick="$('html, body').animate({scrollTop: '0px'}, 600);">⇧</button>
   </div>
 
-  <script src="./libs/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="./src/showArticle.js"></script>
-  <script src="./src/animation.js"></script>
+  <script src="./public/js/showArticle.js"></script>
+  <script src="./public/js/animation.js"></script>
 </body>
 </html>

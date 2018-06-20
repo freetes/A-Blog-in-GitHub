@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  word-wrap: break-word;
+  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: #555;
+}
+
+header{
+  background-color: #f5f5f5 !important;
+}
+
+#blogName{
+  font-size: 2em;
+  cursor: pointer;
+}
+#subName{
+  color: gray
+}
+
+.list{
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+}
+.list li{
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+  margin: 10px 0;
+  padding: 0 10px;
+  display: block
+}
+.selected{
+  border-left: 5px solid red;
+  color: black
+}
+
+.title{
+  font-size: 1.3em;
+}
+
+.subtext{
+  font-size: 0.9em;
+  color: gray
+}
+
+.markdown-body .title{
+  text-align: center;
+  font-size: 1.9em;
+  border: none;
+  margin: 0;
+  padding: 0
+}
+.markdown-body .subtitle{
+  text-align: center;
+  margin: 0;
+  padding: 0
+}
+.markdown-body .date{
+  text-align: right;
+  border-bottom: 1px lightgray solid
+}
+
+footer{
+  float: left;
+  width: 100%;
+  display: flex;
+  background-color: #f5f5f5;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center
+}
+
+footer span{
+  margin: 10px 0;
+}
+
+.tools{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  float: left;
+  height: auto;
+}
+
+.tools button{
+  float: left;
+  background-color: black;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin: 2px 0;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+}
+.tools button:hover{
+}
+
+.text-center{
+  text-align: center
+}
+
+@media (max-width: 600px) {
+  .container-full{
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+  }
+  .row{
+    float: left;
+    width: 100%;
+    margin: 5px 0;
+  }
+  .col-xs{
+    float: left;
+    width: 90%;
+    padding: 8px 1%;
+    margin: 5px 4%
+  }
+  .col-xs-full{
+    float: left;
+    width: 90%;
+    padding: 8px 5%;
+    margin: 5px 0
+  }
+  #blogName{
+    font-size: 1.4em !important;
+    margin-left: 5%;
+  }
+  .tools{
+    display: none
+  }
+}
+
+@media (min-width: 600px) {
+  .container-full{
+    float: left;
+    width: 100%;
+  }
+  .container{
+    float: left;
+    width: 70%;
+    margin: 15px 15%;
+  }
+  .row{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .col-md-3{
+    float: left;
+    width: 26%;
+    padding: 10px 1%;
+    margin: 0 1%
+  }
+  .col-md-7{
+    float: left;
+    width: 67%;
+    padding: 20px 1%;
+    margin: 0 1% 0 0
+  }
+}

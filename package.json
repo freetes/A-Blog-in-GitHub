@@ -1,0 +1,23 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "A blog in GitHub",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freetes/freetes.github.io.git"
+  },
+  "author": "freetes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freetes/freetes.github.io/issues"
+  },
+  "homepage": "https://github.com/freetes/freetes.github.io#readme"
+}

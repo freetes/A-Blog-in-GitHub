@@ -7,6 +7,7 @@
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 
 .markdown-body a {
@@ -286,9 +287,10 @@
 }
 
 .markdown-body blockquote {
+  margin: 12px 0;
   padding: 0 1em;
-  color: #6a737d;
-  border-left: 0.25em solid #dfe2e5;
+  background-color: #f1f1f1;
+  border-left: 0.25em solid black;
 }
 
 .markdown-body blockquote>:first-child {

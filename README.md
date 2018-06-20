@@ -12,7 +12,8 @@
 2. 建议安装 **[vscode](https://code.visualstudio.com/)**
 3. **[直接下载项目压缩包](https://github.com/freetes/A-Blog-in-GitHub/archive/master.zip)** 到本地并解压
 4. 文件夹目录如下
-    ![目录信息](./public/img/directory.png)
+   
+   ![目录信息](./public/img/directory.png)
 5. 配置文件
     ```json
     webConfig.json 博客信息配置

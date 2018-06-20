@@ -10,11 +10,11 @@
 
 1. 安装 **[git](https://git-scm.com/downloads)**
 2. 建议安装 **[vscode](https://code.visualstudio.com/)**
-3. **[直接下载项目压缩包](https://github.com/freetes/A-Blog-in-GitHub/archive/master.zip)** 到本地并解压
+3. **[下载项目压缩包](https://github.com/freetes/A-Blog-in-GitHub/archive/master.zip)** 到本地并解压
 4. 文件夹目录如下
    
    ![目录信息](./public/img/directory.png)
-5. 配置文件
+5. 按需修改配置文件
     ```json
     webConfig.json 博客信息配置
     {
@@ -39,14 +39,14 @@
       "tags": [""]  // 未来功能，用于伪造搜索
     }
     ```
-6. 在GitHub上新建 [用户名.github.io](https://freetes.github.io) 为名称的仓库
-7. 使用 **git** 到将修改后的文件夹 **push** 到刚创建的仓库
-8. 浏览器打开 *你的用户名.github.io* 
-9. 环境搭建完成！
+6. 在GitHub上新建名称为 **用户名.github.io** 的仓库
+7. 使用 **git** 将全部文件 **push** 到刚刚创建的仓库
+8. 浏览器打开 **你的用户名.github.io**
+9. 环境搭建完成！这是一个属于你的博客！
 
 ## 新增文章
 
-1. 在 **articles文件夹** 里新建**以.md结尾的markdown文件**([关于markdown的语法](https://freetes.github.io/#Markdown语法))
+1. 在 **articles文件夹** 里新建 **以.md结尾的markdown文件** ([关于markdown的语法](https://freetes.github.io/#Markdown语法))
 2. 写你想写的
 3. 在 **artConfig.json** 里配置新增文章的信息
 4. 使用 **git push** 更新GitHub上的文章

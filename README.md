@@ -6,17 +6,12 @@
 * 无需购买服务器
 * markdown写作
 
-## 适合人群
-
-* 有一定的编程基础
-* 有一定的动手能力
-
 ## 环境搭建
 
 1. 安装 **[git](https://git-scm.com/downloads)**
 2. 建议安装 **[vscode](https://code.visualstudio.com/)**
 3. [直接下载](https://github.com/freetes/A-Blog-in-GitHub/archive/master.zip)项目压缩包到本地并解压
-4. 打开文件夹里的config.json文件，其标准如下
+4. 打开config文件夹里的config.json文件，其标准如下
     ```javascript
     {
       "name": "你的个人博客", /* 博客标题 */

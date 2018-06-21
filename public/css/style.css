@@ -168,7 +168,10 @@ footer span:last-child{
     margin-left: 5%;
   }
   .tools{
-    display: none
+    display: none;
+  }
+  .list{
+    display: none;
   }
 }
 
@@ -200,4 +203,8 @@ footer span:last-child{
     padding: 20px 1%;
     margin: 0 1% 0 0
   }
+}
+
+header, .list, article, footer{
+  opacity: 0;
 }

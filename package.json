@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "add": "node ./utils/addArticleScript.js"
   },
   "repository": {
     "type": "git",

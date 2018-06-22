@@ -48,9 +48,8 @@
 
 1. 在 **articles文件夹** 里新建 **以.md结尾的markdown文件** ([关于markdown的语法](https://freetes.github.io/#Markdown语法))
 2. 写你想写的
-3. 在 **artConfig.json** 里配置新增文章的信息
-4. 使用 **git push** 更新GitHub上的文章
-5. 新增文章成功！
+3. 写完之后，打开控制台，输入`npm run add`进行添加文章
+4. 使用 **git push** 更新远程仓库里的文件 
 
 ## 本地预览
 

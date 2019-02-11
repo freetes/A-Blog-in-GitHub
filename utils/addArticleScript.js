@@ -52,6 +52,10 @@ function addArticles(files) {
       rl.question('标签有（中间用空格隔开）：', function(answer){
         item.tags = answer.split(' ')
         console.log('录入 '+item.path+' 完成！')
+        for(let tag of item.tags){
+          if(!artConfig.tags.includes(tag))
+            artConfig.tags.push(tag)
+        }
         artConfig.articles.push(item)
         addArticles(files)
       })
@@ -74,7 +78,7 @@ readFilePromise(path.join(__dirname, '../config/artConfig.json')).then(json=>{
   for(let file of files){
     getFileStat(path.join(__dirname, '../articles/', file)).then(time=>{
       let date = new Date(time.birthtime)
-      date = date.getFullYear() + '/' + (date.getMonth()+1) + '/' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes()
+      date = date.getFullYear() + '-' + (date.getMonth()+1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes()
       articles.push({
         path: './articles/' + file,
         date

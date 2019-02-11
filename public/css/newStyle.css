@@ -16,7 +16,6 @@ body{
   font-family: "PingFang SC", "Microsoft YaHei", sans-serif !important;
   font-size: 14px;
   background-color: #eee;
-  color: #121212;
 }
 
 div#content{
@@ -63,7 +62,7 @@ div#mainDiv > div.list{
 }
 div#mainDiv > article.markdown-body{
   margin: 0 10px;
-  padding: 20px 10px;
+  padding: 5px 10px;
   flex: 1 1 auto;
   opacity: 0;
 }
@@ -76,9 +75,6 @@ footer{
   opacity: 0;
   margin: 10px 0;
   margin-top: 100px;
-}
-footer > #endWords{
-  padding-bottom: 10px;
 }
 
 div.tools{
@@ -98,7 +94,7 @@ div.tools{
   cursor: pointer;
   padding: 5px 5%;
   display: block;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray
 }
 .list li:last-child{
   border-bottom: none
@@ -110,7 +106,7 @@ div.tools{
   padding: 4px 0
 }
 .selected{
-  border-left: 2px solid black;
+  border-left: 3px solid black;
   color: black
 }
 .title{
@@ -146,8 +142,8 @@ div.tools{
 .tag{
   height: 20px;
   margin-right: 5px;
-  background-color: #AAAAAA;
-  color: white;
+  background-color: #555;
+  color:white;
   padding: 2px 5px;
   border-radius: 5px;
   font-size: 12px;
@@ -172,79 +168,3 @@ div.tools{
   line-height: 40px;
   color: white;
 }
-
-/* 未来适配 */
-/* @media (max-width: 960px) {
-  .container-full{
-    float: left;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .container{
-    float: left;
-    width: 100%;
-    margin: 15px 0;
-  }
-  .row{
-    float: left;
-    width: 100%;
-    margin: 5px 0;
-  }
-  .col-xs{
-    float: left;
-    width: 90%;
-    padding: 8px 1%;
-    margin: 5px 4%
-  }
-  .col-xs-full{
-    float: left;
-    width: 90%;
-    padding: 8px 5%;
-    margin: 5px 0
-  }
-  #blogName{
-    font-size: 1.4em !important;
-    margin-left: 5%;
-  }
-  .tools{
-    display: none;
-  }
-  .list{
-    display: none;
-  }
-} */
-
-/* @media (min-width: 960px) {
-  .container-full{
-    float: left;
-    width: 100%;
-  }
-  .container{
-    float: left;
-    width: 70%;
-    margin: 15px 15%;
-  }
-  .row{
-    float: left;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .col-md-3{
-    float: left;
-    width: 26%;
-    padding: 10px 1%;
-    margin: 0 1%
-  }
-  .col-md-7{
-    float: left;
-    width: 67%;
-    padding: 20px 1%;
-    margin: 0 1% 0 0
-  }
-}
-
-header, .list, article, footer{
-  opacity: 0;
-} */

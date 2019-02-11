@@ -1,28 +1,28 @@
-const animateTime = 300
+const ANIMATION_TIME = 300
 
-function toggleList () {
-  $('#blogName').attr('onclick', '')
+function toggleList (node) {
+  $(node).removeAttr('onclick')
   // 电脑端
-  if(screen.width > 800){
+  if(screen.width > 960){
     if($('.list').css('display') == 'none'){
-      $('.markdown-body').animate({width: '67%', padding: '8px 1%', margin: '0 1% 0 0'}, animateTime).promise().done(()=>{
-        $('.list').toggle(animateTime).promise().done(()=>{
-          $('#blogName').attr('onclick', 'toggleList()')
+      $('.markdown-body').animate({width: '100%', padding: '20px 10px', margin: '0 10px'}, ANIMATION_TIME).promise().done(()=>{
+        $('.list').toggle(ANIMATION_TIME).promise().done(()=>{
+          $(node).attr('onclick', 'toggleList(this)')
         })
       })
     }
     else{
-      $('.list').toggle(animateTime).promise().done(function (){
-        $('.markdown-body').animate({ width: '70%', padding: '8px 14%', margin: '0 1%'}, animateTime).promise().done(()=>{
-          $('#blogName').attr('onclick', 'toggleList()')
+      $('.list').toggle(ANIMATION_TIME).promise().done(function (){
+        $('.markdown-body').animate({ width: '70%', padding: '20px 14%', margin: '0 10px'}, ANIMATION_TIME).promise().done(()=>{
+          $(node).attr('onclick', 'toggleList(this)')
         })
       })
     }
   }
   // 手机端
   else{
-    $('.list').slideToggle(animateTime).promise().done(()=>{
-      $('#blogName').attr('onclick', 'toggleList()')
+    $('.list').slideToggle(ANIMATION_TIME).done(()=>{
+      $(node).attr('onclick', 'toggleList(this)')
     })
   }
 }
